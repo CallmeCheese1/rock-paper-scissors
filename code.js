@@ -43,13 +43,6 @@ function playRound(playerSelection, computerSelection) {
     }
 }
 
-//const playerSelection = "rock".toLowerCase();
-//const computerSelection = getComputerChoice();
-
-//console.log(`You've picked: ${playerSelection}`);
-//console.log(`But, the computer picked: ${computerSelection}`);
-//console.log(playRound(playerSelection, computerSelection))
-
 function game() {
     console.log("It's time for Rock Paper Scissors!");
 
