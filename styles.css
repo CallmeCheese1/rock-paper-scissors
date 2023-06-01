@@ -9,8 +9,52 @@ body {
     background-color: rgb(231, 231, 231);
 }
 
-h1 {
+.container {
+    background-color: white;
+    padding: 64px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    justify-content: center;
+}
+
+.output-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player-choices {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.choice-button {
     font-family: sans-serif;
-    margin: 0;
-    color: rgb(197, 197, 197);
+    font-weight: bold;
+    font-size: 32px;
+    padding: 16px 32px;
+}
+
+.output-text {
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 32px;
+    width: 400px;
+    flex-shrink: 0;
+}
+
+.score-header {
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.counter-container {
+    display: flex;
+    gap: 8px;
 }

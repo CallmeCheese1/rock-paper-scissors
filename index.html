@@ -7,8 +7,38 @@
 </head>
 <body>
 
-   <h1>There's nothing here.</h1>
-   <h1>Check out the console!</h1>
-   <script src="code.js"></script>
+    <div class="container">
+        <div class="score-header">
+
+            <div class="counter-container">
+                <p>Your score: </p>
+                <p id="playerScore">0</p>
+            </div>
+
+            <div class="counter-container">
+                <p>Round </p>
+                <p id="round">1</p>
+            </div>
+
+            <div class="counter-container">
+                <p>CPU score: </p>
+                <p id="cpuScore">0</p>
+            </div>
+        </div>
+
+        <div class="output-text-container">
+            <div class="output-text">
+                Output text
+            </div>
+        </div>
+    
+        <div class="player-choices">
+            <button class="choice-button" id="rock">Rock</button>
+            <button class="choice-button" id="paper">Paper</button>
+            <button class="choice-button" id="scissors">Scissors</button>
+        </div>
+    </div>
+    
+    <script src="code.js"></script>
 </body>
 </html>
